@@ -1,21 +1,23 @@
 # WHO WANTS TO BE MILLIONAIRE?
 ## Overview
 The goal of this project is to create a console version of a multiple-choice quiz game that mimics the format, regulations, and thrill of the television series Kaun Banega Crorepati in which as you correct as many as question you get money ( which is not real of course) but you can treat this as points in this game
-## Scope of this project
-It contains a predetermined list of ten questions, each with four possible answers and a single correct answer key.
+## FEATURES
+Fundamental Game Mechanics (High-Level Features)
+ The player experience and adherence to the KBC game format are defined by these features:
 
- The money a player can receive for successfully answering each question is represented by a predetermined set of ten prize levels (levels)
- ## Target users
-- It's a great project for Python learners to grasp fundamental ideas like these because of its simple command-line interface and clear logic:
+ Sequential Question Flow: The game ensures a consistent course through the levels by presenting questions in a set, preset order.
 
- Lists (levels, questions)
+ Tiered Prize System: Each question has a unique list of prize money amounts (levels) that correspond to the game's escalating risks.
 
- Loops (while, for)
+ Input Validation: To avoid problems from non-standard input, the code verifies that the user's selection is a valid option (A, B, C, or D).
 
- Statements with conditions (if/elif/else)
-
- Input from the user (input())
-
-- Those who like easy text-based trivia games and are familiar with the KBC or Who Wants to Be a Millionaire? format are considered casual quiz enthusiasts.
-## High level features
-The project's high-level aspects reflect the fundamental elements and logical framework that characterize the gaming experience: Sequential Quiz Progression: The game has a set, ten-question format that leads the player through progressively harder and more lucrative levels. Prize Level System: To replicate the financial stakes of the actual KBC game, a set of ten different, escalating prize amounts (such as 1,000 to 320,000) are linked to the questions. Correctness and Continuation  Logic: The user's input is immediately verified by the game against the right answer key.  If the response is right, the player can either advance to the next level or decide to give up and keep their winnings.
+ Correctness Check: To decide whether to continue, the user's response is immediately compared to the right answer key.
+ ## TECHNOLOGIES/TOOLS USED
+ - Python is used to make this program
+ - Opeb Source Editor is used
+## STEPS TO INSTALL & RUN THE PROJECT
+ To run this project you need to install the following packages in your computer:
+- **Python**: You have to go on chrome and search Python download and download latest version of python
+- **Source editor**: You can download any open source editor like VS-code, anaconda, pycharm etc.
+- To run this project:
+- **Running project**: Now just copy the code and run in VS-code, anaconda, pycharm etc.
